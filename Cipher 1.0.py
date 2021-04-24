@@ -5,7 +5,7 @@ def find_in_list(query, mainlist):
         if element == query:
             index = i
             return i
-chars =['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','np','q','r','s','t','u','v','w','x','y','z']
+chars =['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','n','p','q','r','s','t','u','v','w','x','y','z']
 shifted_chars = ['c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a','b']
 def encrypt_message (plain_msg):
     encrypted_msg = ""
